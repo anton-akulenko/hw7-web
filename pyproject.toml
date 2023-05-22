@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hw7-web"
+version = "0.1.0"
+description = ""
+authors = ["anton-akulenko <anton.htl@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "hw7_web"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.15"
+faker = "^18.9.0"
+alembic = "^1.11.1"
+psycopg2 = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
